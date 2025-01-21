@@ -1,0 +1,17 @@
+git+https://github.com/facebookresearch/detectron2.git
+pytorch-lightning
+smplx
+pyrender
+opencv-python
+yacs
+scikit-image
+einops
+timm
+pandas
+loguru
+numpy
+git+https://github.com/jerinphilip/chumpy@jp
+pyrootutils
+timm
+einops
+
