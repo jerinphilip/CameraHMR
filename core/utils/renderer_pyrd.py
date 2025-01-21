@@ -66,6 +66,7 @@ class Renderer(object):
             return color_rgb
         else:
             valid_mask = (depth_map > 0)[:,:,None]
+            valid_mask = valid_mask.astype(np.uint8)
             # bg_img_rgb[mask] = color_rgb[mask]
             # return bg_img_rgb
             visible_weight =0.9
